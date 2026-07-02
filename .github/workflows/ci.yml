@@ -6,7 +6,7 @@ on:
 
 jobs:
   style:
-    name: Formatting
+    name: style
     runs-on: ubuntu-latest
 
     steps:
