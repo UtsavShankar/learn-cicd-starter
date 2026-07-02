@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      name: Formatting test
-      uses: test -z $(go fmt ./...)
+      - name: Formatting
+        run: test -z $(go fmt ./...)
       
   tests:
     name: Tests
